@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EDCF27F6-0A31-4A8D-A8C9-368E931543FE}</ProjectGuid>
+    <Keyword>QtVS_v303</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.17763.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutDir>..\..\binD</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutDir>..\..\bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Qt_INCLUDEPATH_);..\Include;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\libD;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Qt_INCLUDEPATH_);..\Include;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ParonamaCPRImageDisplayerWidget.cpp" />
+    <ClCompile Include="ParonamaSagittalImageDisplayerWidget.cpp" />
+    <ClCompile Include="ParonamaSourceImageDisplayerWidget.cpp" />
+    <ClCompile Include="FloatInputTextWindow.cpp" />
+    <ClCompile Include="IconButton.cpp" />
+    <ClCompile Include="ImageDisplayerWidget.cpp" />
+    <ClCompile Include="ImageFrameWidget.cpp" />
+    <ClCompile Include="ImageGriderWidget.cpp" />
+    <ClCompile Include="ImportImagesProcessWidget.cpp" />
+    <ClCompile Include="MenuLabel.cpp" />
+    <ClCompile Include="MPRFrameWidget.cpp" />
+    <ClCompile Include="MprImageDisplayerWidget.cpp" />
+    <ClCompile Include="MprScoutLine.cpp" />
+    <ClCompile Include="OpeningStudyProcessWidget.cpp" />
+    <ClCompile Include="ParonamaFrameWidget.cpp" />
+    <ClCompile Include="ParonamaVRImageDisplayerWidget.cpp" />
+    <ClCompile Include="PatientListFrameWidget.cpp" />
+    <ClCompile Include="SettingFrameWidget.cpp" />
+    <ClCompile Include="StarLightStationWidget.cpp" />
+    <ClCompile Include="StudyGriderTabItemWidget.cpp" />
+    <ClCompile Include="ThemeDatetimeDisplayer.cpp" />
+    <ClCompile Include="ThemeDefine.cpp" />
+    <ClCompile Include="ThemeMessageBox.cpp" />
+    <ClCompile Include="ThemePushButton.cpp" />
+    <ClCompile Include="TitleWidget.cpp" />
+    <ClCompile Include="VRColorSettingWidget.cpp" />
+    <ClCompile Include="VRFrameWidget.cpp" />
+    <QtRcc Include="StarLightStation.qrc" />
+    <QtUic Include="FloatInputTextWindow.ui" />
+    <QtUic Include="ImageFrameWidget.ui" />
+    <QtUic Include="ImportImagesProcessWidget.ui" />
+    <QtUic Include="LoginWindow.ui" />
+    <QtUic Include="MPRFrameWidget.ui" />
+    <QtUic Include="OpeningStudyProcessWidget.ui" />
+    <QtUic Include="ParonamaFrameWidget.ui" />
+    <QtUic Include="PatientListFrameWidget.ui" />
+    <QtUic Include="SettingFrameWidget.ui" />
+    <QtUic Include="StarLightStation.ui" />
+    <QtMoc Include="StarLightStation.h" />
+    <ClCompile Include="CloseButton.cpp" />
+    <ClCompile Include="MaximumButton.cpp" />
+    <ClCompile Include="MinimumButton.cpp" />
+    <ClCompile Include="PixctureBox.cpp" />
+    <ClCompile Include="LoginWindow.cpp" />
+    <ClCompile Include="NoBoundWindow.cpp" />
+    <ClCompile Include="StarLightStation.cpp" />
+    <ClCompile Include="main.cpp" />
+    <QtUic Include="StarLightStationWidget.ui" />
+    <QtUic Include="StudyGriderTabItemWidget.ui" />
+    <QtUic Include="ThemeMessageBox.ui" />
+    <QtUic Include="TitleWidget.ui" />
+    <QtUic Include="VRColorSettingWidget.ui" />
+    <QtUic Include="VRFrameWidget.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LoginWindow2.qml" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="VRColorSettingWidget.h" />
+    <QtMoc Include="VRFrameWidget.h" />
+    <QtMoc Include="ThemeMessageBox.h" />
+    <QtMoc Include="ImageFrameWidget.h" />
+    <QtMoc Include="ThemePushButton.h" />
+    <QtMoc Include="MenuLabel.h" />
+    <QtMoc Include="FloatInputTextWindow.h" />
+    <QtMoc Include="ParonamaSourceImageDisplayerWidget.h" />
+    <ClInclude Include="FrameMenu.h" />
+    <QtMoc Include="ImageDisplayerWidget.h" />
+    <QtMoc Include="ImageGriderWidget.h" />
+    <QtMoc Include="IconButton.h" />
+    <QtMoc Include="ImportImagesProcessWidget.h" />
+    <QtMoc Include="MPRFrameWidget.h" />
+    <QtMoc Include="MprImageDisplayerWidget.h" />
+    <ClInclude Include="MprScoutLine.h" />
+    <ClInclude Include="NoBoundWindow.h" />
+    <QtMoc Include="TitleWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="LoginWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="PixctureBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CloseButton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MaximumButton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MinimumButton.h" />
+    <QtMoc Include="PatientListFrameWidget.h" />
+    <QtMoc Include="OpeningStudyProcessWidget.h" />
+    <QtMoc Include="ParonamaFrameWidget.h" />
+    <QtMoc Include="ParonamaCPRImageDisplayerWidget.h" />
+    <QtMoc Include="ParonamaSagittalImageDisplayerWidget.h" />
+    <QtMoc Include="ParonamaVRImageDisplayerWidget.h" />
+    <ClInclude Include="pch.h" />
+    <QtMoc Include="StarLightStationWidget.h" />
+    <QtMoc Include="ThemeDatetimeDisplayer.h" />
+    <ClInclude Include="resource.h" />
+    <QtMoc Include="StudyGriderTabItemWidget.h" />
+    <QtMoc Include="SettingFrameWidget.h" />
+    <ClInclude Include="ThemeDefine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StarLightStation.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon\Logo.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

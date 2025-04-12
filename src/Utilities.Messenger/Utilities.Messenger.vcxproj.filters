@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EventArgs">
+      <UniqueIdentifier>{c4cc90d8-39fb-464c-b76c-58f05754f3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventArgs\UI">
+      <UniqueIdentifier>{71d6f603-8100-4ec2-b0e2-04e02600d37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventArgs\UI\MessageBox">
+      <UniqueIdentifier>{8c452d40-e8bc-4abc-a8d9-4f1f4b96335d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventArgs\UI\ImageFrame">
+      <UniqueIdentifier>{5fb60b82-6da5-4856-b65e-31a65cb6207e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventArgs\UI\Station">
+      <UniqueIdentifier>{e37d7a3e-42ef-4e03-b0e7-5c048de81ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventArgs\UI\MprFrame">
+      <UniqueIdentifier>{6c867da8-0524-41a0-bd07-feaf8b07eebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventArgs\UI\VRFrame">
+      <UniqueIdentifier>{cbd4b01a-bb0b-48ac-9f9d-62e040ae308b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventArgs\UI\Paronama">
+      <UniqueIdentifier>{14e70053-0a23-4f7c-ac0d-22701b01f408}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Messenger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestMessageBoxEventArgs.cpp">
+      <Filter>EventArgs\UI\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectedImageChangedEventArgs.cpp">
+      <Filter>EventArgs\UI\ImageFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayTextAnnotationEditControlEventArgs.cpp">
+      <Filter>EventArgs\UI\ImageFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="StationNameChangedEventArgs.cpp">
+      <Filter>EventArgs\UI\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="MprLoadImageEventArgs.cpp">
+      <Filter>EventArgs\UI\MprFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MprUpdateScoutLineCenterEventArgs.cpp">
+      <Filter>EventArgs\UI\MprFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MprScrollSlicePositionChangedEventArgs.cpp">
+      <Filter>EventArgs\UI\MprFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MprRotateScoutLineEventArgs.cpp">
+      <Filter>EventArgs\UI\MprFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="VRLoadImageEventArgs.cpp">
+      <Filter>EventArgs\UI\VRFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="VRGetRenderWindowParentHandleEventArgs.cpp">
+      <Filter>EventArgs\UI\VRFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="ParonamaLoadImageEventArgs.cpp">
+      <Filter>EventArgs\UI\Paronama</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Utilities.Messenger.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\ExportFlagDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\Messenger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\MessengerKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\MessageBox\RequestMessageBoxEventArgs.h">
+      <Filter>EventArgs\UI\MessageBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgsBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\ImageFrame\DisplayTextAnnotationEditControlEventArgs.h">
+      <Filter>EventArgs\UI\ImageFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\ImageFrame\SelectedImageChangedEventArgs.h">
+      <Filter>EventArgs\UI\ImageFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\Station\StationNameChangedEventArgs.h">
+      <Filter>EventArgs\UI\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\MprFrame\MprLoadImageEventArgs.h">
+      <Filter>EventArgs\UI\MprFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\MprFrame\MprUpdateScoutLineCenterEventArgs.h">
+      <Filter>EventArgs\UI\MprFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\MprFrame\MprScrollSlicePositionChangedEventArgs.h">
+      <Filter>EventArgs\UI\MprFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\MprFrame\MprRotateScoutLineEventArgs.h">
+      <Filter>EventArgs\UI\MprFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\VRFrame\VRLoadImageEventArgs.h">
+      <Filter>EventArgs\UI\VRFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\VRFrame\VRGetRenderWindowParentHandleEventArgs.h">
+      <Filter>EventArgs\UI\VRFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\Messenger\EventArgs\UI\Paronama\ParonamaLoadImageEventArgs.h">
+      <Filter>EventArgs\UI\Paronama</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Utilities.Messenger.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

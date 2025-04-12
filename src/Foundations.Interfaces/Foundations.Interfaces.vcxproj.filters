@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{3283d242-a63c-4928-bce4-8588e20fa122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\HeaderFiles">
+      <UniqueIdentifier>{d273f285-7e30-454d-8acf-86ad0fc4cdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enums">
+      <UniqueIdentifier>{77081ff9-266c-42e6-94b0-3ca60861fbfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\SourceFiles">
+      <UniqueIdentifier>{15dcaf35-9d34-4e2e-a348-844b8b459b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{3b0c9e5b-7756-4e01-b1d9-b659538c79db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\HeaderFiles">
+      <UniqueIdentifier>{c2233d99-29d8-4a0c-b78d-d46f7616f88b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ServiceBase.h">
+      <Filter>Services\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ServiceType.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ServiceParameterBase.h">
+      <Filter>Services\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ServiceResult.h">
+      <Filter>Services\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ImagePlanDirection.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ServiceRequest.h">
+      <Filter>Services\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\Sex.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\AgeUnit.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\Modality.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\PhotometricInterpretation.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ServiceRequestBase.h">
+      <Filter>Services\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\Modules\SerializeBase.h">
+      <Filter>Modules\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\MineType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\StudyReportState.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ImageMouseAction.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ImageToolType.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\Enums\AnnotationType.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\ImageSlabMode.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\Enums\ImageProcessErrorCode.h">
+      <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Foundations\Interfaces\Services\VRServiceRequest.h">
+      <Filter>Services\HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceResult.cpp">
+      <Filter>Services\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceRequest.cpp">
+      <Filter>Services\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="VRServiceRequest.cpp">
+      <Filter>Services\SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

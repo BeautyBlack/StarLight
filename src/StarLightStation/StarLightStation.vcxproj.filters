@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{500ddfac-7fc4-4717-a2f1-a939c37a7927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\HeaderFiles">
+      <UniqueIdentifier>{ac178369-ff03-45ba-9f1c-64af96920aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\SourceFiles">
+      <UniqueIdentifier>{2c0bbaab-2e0c-4950-b3bf-6f753cec2171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Button">
+      <UniqueIdentifier>{3da961d6-c483-4e8b-a52f-907ec5794091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Button\HeaderFiles">
+      <UniqueIdentifier>{f07e00b6-6c23-4abd-a503-45753da0373d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Button\SoureceFiles">
+      <UniqueIdentifier>{ce419f7f-804d-4e4e-9815-23ea20327579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discard">
+      <UniqueIdentifier>{40510224-3012-4899-bcb2-09899887bba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discard\LoginWindow">
+      <UniqueIdentifier>{e0febaa9-547b-432e-b878-a3bbbcbbf985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\MenuLabel">
+      <UniqueIdentifier>{33dbd4b6-b97d-459b-ad3f-a2d295e514a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enum">
+      <UniqueIdentifier>{590ddf02-5616-421c-bd6f-b634c1f87bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\DatetimeDisplayer">
+      <UniqueIdentifier>{c4a2acf6-f79b-49ee-ac22-cff4a630e785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames">
+      <UniqueIdentifier>{ea953e10-4df7-4e0d-a791-55d5a90de217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\PatientListFrame">
+      <UniqueIdentifier>{fa6f59b2-7ee9-47ba-9a5a-8408ff5f30e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\ImageFrame">
+      <UniqueIdentifier>{f2929aba-4541-49f3-99ae-4cc93307a096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\ImageFrame\Controls">
+      <UniqueIdentifier>{f94c7600-c5de-4c17-a9a3-5c8acb1ff0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\ImageFrame\Controls\Image">
+      <UniqueIdentifier>{ca2afdfa-069b-421c-bed4-81159937dc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\MessageBox">
+      <UniqueIdentifier>{531545de-8058-498c-b703-ac6cb040f649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Controls">
+      <UniqueIdentifier>{29baa213-56ce-404e-994e-05740ce56177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Frames">
+      <UniqueIdentifier>{6add3106-d816-4e90-88f3-aaa2b6a5e9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Frames\PatientListFrame">
+      <UniqueIdentifier>{29cfcf3f-3b62-4ed3-b74d-ee7db9022825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Frames\ImageFrame">
+      <UniqueIdentifier>{10b61372-07cf-4eb7-a758-37dd711e7a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Inputs">
+      <UniqueIdentifier>{3017943f-1df8-4ce7-ac0b-aa2642434a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\SettingFrame">
+      <UniqueIdentifier>{9e3bc4d6-81ef-4b7c-bdc1-d9182f924366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Frames\SettingFrame">
+      <UniqueIdentifier>{713ed694-7950-4b3a-a366-309bf37ee438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\MPR">
+      <UniqueIdentifier>{b59efd58-da4d-4e09-a32b-852d3afd30d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Frames\MPR">
+      <UniqueIdentifier>{75d6ed27-cc7e-4c16-8644-00382aaa9386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\MPR\Controls">
+      <UniqueIdentifier>{15add6ba-8ab2-4a55-8de8-8c4a088629b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\MPR\Controls\Image">
+      <UniqueIdentifier>{c3abdd6d-2edb-4a6a-9f50-41939a963e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\VR">
+      <UniqueIdentifier>{cfe75547-28cb-4965-9df6-4b16bafe90a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Frames\VR">
+      <UniqueIdentifier>{2b6037f1-1031-4cec-b3b4-45d724387f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\VR\Controls">
+      <UniqueIdentifier>{950e4821-cf12-4630-a00e-68a3c6c99540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\VR\Controls\Image">
+      <UniqueIdentifier>{4a055e7c-e6ee-4aaf-b5ca-97772662fd17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Frames\Paronama">
+      <UniqueIdentifier>{725f21f9-8319-415a-bd78-0de0b28d04b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\Paronama">
+      <UniqueIdentifier>{172205d4-99c7-4032-9563-dd18295970ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\Paronama\Controls">
+      <UniqueIdentifier>{f6ddaf2c-a7bb-4e8f-a408-018c3064f8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frames\VR\Controls\Setting">
+      <UniqueIdentifier>{8e3e2434-9868-4807-8967-651c3ef92852}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PixctureBox.cpp">
+      <Filter>Controls\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseButton.cpp">
+      <Filter>Controls\Button\SoureceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumButton.cpp">
+      <Filter>Controls\Button\SoureceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumButton.cpp">
+      <Filter>Controls\Button\SoureceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="StarLightStation.cpp">
+      <Filter>Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWindow.cpp">
+      <Filter>Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="NoBoundWindow.cpp">
+      <Filter>Discard</Filter>
+    </ClCompile>
+    <ClCompile Include="StarLightStationWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLabel.cpp">
+      <Filter>Controls\MenuLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemePushButton.cpp">
+      <Filter>Controls\Button\SoureceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemeDatetimeDisplayer.cpp">
+      <Filter>Controls\DatetimeDisplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageDisplayerWidget.cpp">
+      <Filter>Frames\ImageFrame\Controls\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientListFrameWidget.cpp">
+      <Filter>Frames\PatientListFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFrameWidget.cpp">
+      <Filter>Frames\ImageFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageGriderWidget.cpp">
+      <Filter>Frames\ImageFrame\Controls\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemeDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IconButton.cpp">
+      <Filter>Controls\Button\SoureceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemeMessageBox.cpp">
+      <Filter>Controls\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportImagesProcessWidget.cpp">
+      <Filter>Frames\PatientListFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyGriderTabItemWidget.cpp">
+      <Filter>Frames\ImageFrame\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningStudyProcessWidget.cpp">
+      <Filter>Frames\PatientListFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatInputTextWindow.cpp">
+      <Filter>Controls\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingFrameWidget.cpp">
+      <Filter>Frames\SettingFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MPRFrameWidget.cpp">
+      <Filter>Frames\MPR</Filter>
+    </ClCompile>
+    <ClCompile Include="MprImageDisplayerWidget.cpp">
+      <Filter>Frames\MPR\Controls\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MprScoutLine.cpp">
+      <Filter>Frames\MPR\Controls\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="VRFrameWidget.cpp">
+      <Filter>Frames\VR</Filter>
+    </ClCompile>
+    <ClCompile Include="ParonamaFrameWidget.cpp">
+      <Filter>Frames\Paronama</Filter>
+    </ClCompile>
+    <ClCompile Include="ParonamaSourceImageDisplayerWidget.cpp">
+      <Filter>Frames\Paronama\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ParonamaCPRImageDisplayerWidget.cpp">
+      <Filter>Frames\Paronama\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ParonamaSagittalImageDisplayerWidget.cpp">
+      <Filter>Frames\Paronama\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ParonamaVRImageDisplayerWidget.cpp">
+      <Filter>Frames\Paronama\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VRColorSettingWidget.cpp">
+      <Filter>Frames\VR\Controls\Setting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LoginWindow2.qml">
+      <Filter>Discard\LoginWindow</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="StarLightStation.ui">
+      <Filter>Discard</Filter>
+    </QtUic>
+    <QtUic Include="LoginWindow.ui">
+      <Filter>Discard</Filter>
+    </QtUic>
+    <QtUic Include="StarLightStationWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ThemeMessageBox.ui">
+      <Filter>Form Files\Controls</Filter>
+    </QtUic>
+    <QtUic Include="TitleWidget.ui">
+      <Filter>Form Files\Controls</Filter>
+    </QtUic>
+    <QtUic Include="PatientListFrameWidget.ui">
+      <Filter>Form Files\Frames\PatientListFrame</Filter>
+    </QtUic>
+    <QtUic Include="ImportImagesProcessWidget.ui">
+      <Filter>Form Files\Frames\PatientListFrame</Filter>
+    </QtUic>
+    <QtUic Include="ImageFrameWidget.ui">
+      <Filter>Form Files\Frames\ImageFrame</Filter>
+    </QtUic>
+    <QtUic Include="StudyGriderTabItemWidget.ui">
+      <Filter>Form Files\Frames\ImageFrame</Filter>
+    </QtUic>
+    <QtUic Include="OpeningStudyProcessWidget.ui">
+      <Filter>Form Files\Frames\PatientListFrame</Filter>
+    </QtUic>
+    <QtUic Include="FloatInputTextWindow.ui">
+      <Filter>Controls\Inputs</Filter>
+    </QtUic>
+    <QtUic Include="SettingFrameWidget.ui">
+      <Filter>Form Files\Frames\SettingFrame</Filter>
+    </QtUic>
+    <QtUic Include="MPRFrameWidget.ui">
+      <Filter>Form Files\Frames\MPR</Filter>
+    </QtUic>
+    <QtUic Include="VRFrameWidget.ui">
+      <Filter>Form Files\Frames\VR</Filter>
+    </QtUic>
+    <QtUic Include="ParonamaFrameWidget.ui">
+      <Filter>Form Files\Frames\Paronama</Filter>
+    </QtUic>
+    <QtUic Include="VRColorSettingWidget.ui">
+      <Filter>Form Files\Frames\VR</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="PixctureBox.h">
+      <Filter>Controls\HeaderFiles</Filter>
+    </QtMoc>
+    <QtMoc Include="CloseButton.h">
+      <Filter>Controls\Button\HeaderFiles</Filter>
+    </QtMoc>
+    <QtMoc Include="MaximumButton.h">
+      <Filter>Controls\Button\HeaderFiles</Filter>
+    </QtMoc>
+    <QtMoc Include="MinimumButton.h">
+      <Filter>Controls\Button\HeaderFiles</Filter>
+    </QtMoc>
+    <QtMoc Include="StarLightStation.h">
+      <Filter>Discard</Filter>
+    </QtMoc>
+    <QtMoc Include="LoginWindow.h">
+      <Filter>Discard</Filter>
+    </QtMoc>
+    <QtMoc Include="StarLightStationWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="TitleWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MenuLabel.h">
+      <Filter>Controls\MenuLabel</Filter>
+    </QtMoc>
+    <QtMoc Include="ThemePushButton.h">
+      <Filter>Controls\Button\HeaderFiles</Filter>
+    </QtMoc>
+    <QtMoc Include="ThemeDatetimeDisplayer.h">
+      <Filter>Controls\DatetimeDisplayer</Filter>
+    </QtMoc>
+    <QtMoc Include="ImageDisplayerWidget.h">
+      <Filter>Frames\ImageFrame\Controls\Image</Filter>
+    </QtMoc>
+    <QtMoc Include="PatientListFrameWidget.h">
+      <Filter>Frames\PatientListFrame</Filter>
+    </QtMoc>
+    <QtMoc Include="ImageFrameWidget.h">
+      <Filter>Frames\ImageFrame</Filter>
+    </QtMoc>
+    <QtMoc Include="ImageGriderWidget.h">
+      <Filter>Frames\ImageFrame\Controls\Image</Filter>
+    </QtMoc>
+    <QtMoc Include="IconButton.h">
+      <Filter>Controls\Button\HeaderFiles</Filter>
+    </QtMoc>
+    <QtMoc Include="ThemeMessageBox.h">
+      <Filter>Controls\MessageBox</Filter>
+    </QtMoc>
+    <QtMoc Include="ImportImagesProcessWidget.h">
+      <Filter>Frames\PatientListFrame</Filter>
+    </QtMoc>
+    <QtMoc Include="StudyGriderTabItemWidget.h">
+      <Filter>Frames\ImageFrame\Controls</Filter>
+    </QtMoc>
+    <QtMoc Include="OpeningStudyProcessWidget.h">
+      <Filter>Frames\PatientListFrame</Filter>
+    </QtMoc>
+    <QtMoc Include="FloatInputTextWindow.h">
+      <Filter>Controls\Inputs</Filter>
+    </QtMoc>
+    <QtMoc Include="SettingFrameWidget.h">
+      <Filter>Frames\SettingFrame</Filter>
+    </QtMoc>
+    <QtMoc Include="MPRFrameWidget.h">
+      <Filter>Frames\MPR</Filter>
+    </QtMoc>
+    <QtMoc Include="MprImageDisplayerWidget.h">
+      <Filter>Frames\MPR\Controls\Image</Filter>
+    </QtMoc>
+    <QtMoc Include="VRFrameWidget.h">
+      <Filter>Frames\VR</Filter>
+    </QtMoc>
+    <QtMoc Include="ParonamaFrameWidget.h">
+      <Filter>Frames\Paronama</Filter>
+    </QtMoc>
+    <QtMoc Include="ParonamaSourceImageDisplayerWidget.h">
+      <Filter>Frames\Paronama\Controls</Filter>
+    </QtMoc>
+    <QtMoc Include="ParonamaVRImageDisplayerWidget.h">
+      <Filter>Frames\Paronama\Controls</Filter>
+    </QtMoc>
+    <QtMoc Include="ParonamaSagittalImageDisplayerWidget.h">
+      <Filter>Frames\Paronama\Controls</Filter>
+    </QtMoc>
+    <QtMoc Include="ParonamaCPRImageDisplayerWidget.h">
+      <Filter>Frames\Paronama\Controls</Filter>
+    </QtMoc>
+    <QtMoc Include="VRColorSettingWidget.h">
+      <Filter>Frames\VR\Controls\Setting</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThemeDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoBoundWindow.h">
+      <Filter>Discard</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMenu.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MprScoutLine.h">
+      <Filter>Frames\MPR\Controls\Image</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="StarLightStation.qrc">
+      <Filter>Discard</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StarLightStation.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon\Logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Annotation">
+      <UniqueIdentifier>{4ea2b003-1333-42bd-926a-3f7da08d8442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\HeaderFiles">
+      <UniqueIdentifier>{6a0111c3-4913-4a3c-abbd-8869f3043fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Annotation\SourceFiles">
+      <UniqueIdentifier>{a2f5db68-d0d4-4cb3-acda-d4ed9b6e1d79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageFrameViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyTabItemViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OriginalToViewportTransformMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnotationBase.cpp">
+      <Filter>Annotation\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="LineAnnotation.cpp">
+      <Filter>Annotation\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveLineAnnotation.cpp">
+      <Filter>Annotation\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonAnnotation.cpp">
+      <Filter>Annotation\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleAnnotation.cpp">
+      <Filter>Annotation\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TextAnnotation.cpp">
+      <Filter>Annotation\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="RectAnnotation.cpp">
+      <Filter>Annotation\SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\ImageFrameViewModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\imageframeviewmodel_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\DisplayImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\StudyTabItemViewModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\ImageFrameViewModelStdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\OriginalToViewportTransformMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\Annotation\AngleAnnotation.h">
+      <Filter>Annotation\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\Annotation\AnnotationBase.h">
+      <Filter>Annotation\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\Annotation\CurveLineAnnotation.h">
+      <Filter>Annotation\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\Annotation\LineAnnotation.h">
+      <Filter>Annotation\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\Annotation\PolygonAnnotation.h">
+      <Filter>Annotation\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\Annotation\RectAnnotation.h">
+      <Filter>Annotation\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ViewModels\ImageFrameViewModel\Annotation\TextAnnotation.h">
+      <Filter>Annotation\HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{855768fa-e927-4410-b351-a6277917ad2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\SourceFiles">
+      <UniqueIdentifier>{537b03aa-051f-48ac-a08e-d7c5c6c2742d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{7d63281b-6e5b-4008-82ac-d06de0be7e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\HeaderFiles">
+      <UniqueIdentifier>{12f24e53-9eb2-4a35-a2ac-2e23c8517b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\SourceFiles">
+      <UniqueIdentifier>{23faa1ad-15c3-41bf-8e07-611771633772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\HeaderFiles">
+      <UniqueIdentifier>{72ac10ba-558c-4630-ac21-a265d6e82a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModuleLoaders">
+      <UniqueIdentifier>{c67db1ed-c196-4a50-9787-ae92b113625f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModuleLoaders\HeaderFiles">
+      <UniqueIdentifier>{b4304d9e-e5bc-41c3-ae03-b00540b0ffe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModuleLoaders\SourceFiles">
+      <UniqueIdentifier>{72aa5df4-3b54-46e6-89bd-17f56d39abe3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\ModuleHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\DcmtkJpegRegister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\InvirenmentHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\Modules\ImageInstanceModule.h">
+      <Filter>Modules\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\Modules\ImagePlanModule.h">
+      <Filter>Modules\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\Modules\SeriesModule.h">
+      <Filter>Modules\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\Modules\StudyModule.h">
+      <Filter>Modules\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\Service\DicomLoaderService.h">
+      <Filter>Service\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\Service\DicomRecordService.h">
+      <Filter>Service\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\Service\DicomFileImporter.h">
+      <Filter>Service\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\utilities\ImageModule\ExportFlagDefine.h">
+      <Filter>Service\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyModuleLoader.h">
+      <Filter>ModuleLoaders\HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyModule.cpp">
+      <Filter>Modules\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SeriesModule.cpp">
+      <Filter>Modules\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageInstanceModule.cpp">
+      <Filter>Modules\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagePlanModule.cpp">
+      <Filter>Modules\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DicomLoaderService.cpp">
+      <Filter>Service\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DicomRecordService.cpp">
+      <Filter>Service\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DcmtkJpegRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvirenmentHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DicomFileImporter.cpp">
+      <Filter>Service\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyModuleLoader.cpp">
+      <Filter>ModuleLoaders\SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
